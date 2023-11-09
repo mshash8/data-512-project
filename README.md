@@ -10,7 +10,7 @@ The section below details the steps for data acquistion. We have:
 
 1. A geojson [file](https://drive.google.com/file/d/1khouDmMaZyKo0y5WkFj4lu7g8o35x_98/view?usp=drive_link) dataset collected and aggregated by the US Geological Survey. This contains fire polygons for wildfires that have occurred across the USA. 
 2. An [API](https://aqs.epa.gov/aqsweb/documents/data_api.html) which returns a response to obtain the Air Quality Estimates for regions in the USA.
-3. A [spreadsheet](https://docs.google.com/spreadsheets/d/1cmTW5fgU3KyH6JbrRao-qWjzu2GovKk_BkA7a-poGFw/edit?usp=drive_link) listing the assignments of different cities.
+3. A [spreadsheet](https://docs.google.com/spreadsheets/d/1cmTW5fgU3KyH6JbrRao-qWjzu2GovKk_BkA7a-poGFw/edit?usp=drive_link) listing the assignments of people to different cities.
 
 # Platform
 This project was run on jupyter notebook on localhost. 
