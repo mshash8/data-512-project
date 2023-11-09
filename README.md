@@ -65,11 +65,15 @@ This project is open-source and follows the MIT License. You are free to use and
 
 1. **Path:** data/predicted_values.json - This file contains the predictions of smoke in Lewiston, Idaho for the years 2024-2049.
 
-year (int) : predicted_smoke_estimate (int)
+  * year (int) : predicted_smoke_estimate (int)
+  * The year field is the year that the smoke_estimate prediction is for
+  * The predicted_smoke_estimate is the smoke_estimate for that particular year as predicted by the model
 
 2. **Path:** data/aqi_lewiston.json - This file contains the AQI estimates near Lewiston, Idaho for the years 1986-2023.
 
-year (int) : aqi_estimate (int)
+  * year (int) : aqi_estimate (int)
+  * The year field is the year for each aqi estimate
+  * The aqi_estimate is the aqi as returned by the API exposed by the EPA
 
 # Helpful Links
 1. [Metadata for Wilfire Polygon Data](https://www.sciencebase.gov/catalog/file/get/61aa537dd34eb622f699df81?f=__disk__d0%2F63%2F53%2Fd063532049be8e1bc83d1d3047b4df1a5cb56f15&transform=1&allowOpen=true)
