@@ -63,11 +63,11 @@ This project is open-source and follows the MIT License. You are free to use and
 
 # Data Files 
 
-1. **Path:** data/predictions.json - This file contains the predictions of smoke in Lewiston, Idaho for the years 2024-2049.
+1. **Path:** data/predicted_values.json - This file contains the predictions of smoke in Lewiston, Idaho for the years 2024-2049.
 
 year (int) : predicted_smoke_estimate (int)
 
-2. **Path:** data/aqi.json - This file contains the AQI estimates near Lewiston, Idaho for the years 1986-2023.
+2. **Path:** data/aqi_lewiston.json - This file contains the AQI estimates near Lewiston, Idaho for the years 1986-2023.
 
 year (int) : aqi_estimate (int)
 
