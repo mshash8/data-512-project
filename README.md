@@ -58,8 +58,8 @@ LICENSE File: Contains the MIT LICENSE for the project's code, ensuring it is fr
 This project is open-source and follows the MIT License. You are free to use and modify the code according to the terms of the MIT License. 
 
 # Scripts 
-1. **Path:** scripts/wildfire_data_analysis.json - This file contains the data acquistion, preparation and analysis of the wildfire data from USGS.
-2. **Path:** scripts/aqi_data_acquistion.json - This file contains the data acquistion and API call for the AQI data. This creates an output json of AQI for each year which is read back into the notebook above to create visualizations.
+1. **Path:** scripts/wildfire_data_analysis.ipynb - This file contains the data acquistion, preparation and analysis of the wildfire data from USGS.
+2. **Path:** scripts/aqi_data_acquistion.ipynb - This file contains the data acquistion and API call for the AQI data. This creates an output json of AQI for each year which is read back into the notebook above to create visualizations.
 
 # Data Files 
 
