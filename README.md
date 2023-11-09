@@ -9,7 +9,7 @@ The goal of the project is to analyze wildfire impacts on a specific city in the
 The section below details the steps for data acquistion. We have:
 
 1. A geojson [file](https://drive.google.com/file/d/1khouDmMaZyKo0y5WkFj4lu7g8o35x_98/view?usp=drive_link) dataset collected and aggregated by the US Geological Survey. This contains fire polygons for wildfires that have occurred across the USA. 
-2. An API [file]([https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html](https://aqs.epa.gov/aqsweb/documents/data_api.html)) to obtain the Air Quality Estimates for regions in the USA.
+2. An [API]([https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html](https://aqs.epa.gov/aqsweb/documents/data_api.html)) which returns a response to obtain the Air Quality Estimates for regions in the USA.
 3. A [spreadsheet](https://docs.google.com/spreadsheets/d/1cmTW5fgU3KyH6JbrRao-qWjzu2GovKk_BkA7a-poGFw/edit?usp=drive_link) listing the assignments of different cities.
 
 # Platform
