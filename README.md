@@ -31,6 +31,16 @@ Data Acquistion, Data Preparation, and Data Analysis are key phases within this 
       1. Produce a histogram showing the number of fires occurring every 50 mile distance from your assigned city up to the max specified distance.
       2. Produce a time series graph of total acres burned per year for the fires occurring in the specified distance from your city.
       3. Produce a time series graph containing your fire smoke estimate for your city and the AQI estimate for your city.
+    
+# Limitations
+* The wildfire dataset provided by USGS does not include data for the years 2021, 2022, and 2023 at a distance of 1250 miles from Lewiston, Idaho.
+
+* In the AQI API, there is no information available for gaseous matter at stations near Lewiston, Idaho, even with the bounding box.
+
+* There is no station directly in Lewiston, Idaho, in the AQI API, and the stations within the bounding boxes also provide information for a limited period, specifically from 1986 to 2023.
+
+* The smoke estimate values range from 3.084128e-10 to 1.435315e+02. Most values are extremely small because many fires burn very small areas located at a significant distance from the city of interest. This potentially lowers the average smoke_estimate, despite the possibility of poor air quality.
+
 
 # Documentation
 This project adheres to recommended best practices for replication and documentation:
