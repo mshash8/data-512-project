@@ -52,7 +52,7 @@ README File: Offers a general overview of the project, outlining its objectives,
 LICENSE File: Contains the MIT LICENSE for the project's code, ensuring it is freely usable and the [Creative Commons License](https://creativecommons.org/licenses/by/4.0/). 
 
 # Special Considerations
-* The GeoJSON dataset from USGS is extensive, containing approximately 136,000 fire occurrences that require thorough analysis. Although loading this data was made more straightforward with the Reader written by Prof. David McDonald, filtering the data required parsing through these rows to include only those fire occurrences falling within the scope of this assignment, which consumed a significant amount of time.
+* The GeoJSON dataset from USGS is extensive, containing approximately 136,000 fire occurrences that require thorough analysis. Although loading this data was made more straightforward with the Reader written by Dr. David W. McDonald, filtering the data required parsing through these rows to include only those fire occurrences falling within the scope of this assignment, which consumed a significant amount of time.
 
 * Extensive error handling was also necessary, as not all fields were present in every data row. For instance, the 'rings' parameter needed to be verified and handled accordingly.
 
@@ -65,7 +65,7 @@ LICENSE File: Contains the MIT LICENSE for the project's code, ensuring it is fr
 * Furthermore, the response from the EPA API does not always contain the 'aqi' parameter, requiring exception handling. In my city locations, there was also an absence of data for gaseous pollutants, with only particulate pollutants available. This specific scenario also calls for separate handling.
 
 # License
-This project is open-source and follows the MIT License. You are free to use and modify the code according to the terms of the MIT License. 
+This project is open-source and follows the MIT License. You are free to use and modify the code according to the terms of the MIT License. This code examples used in the notebooks were developed by Dr. David W. McDonald for use in DATA 512, a course in the UW MS Data Science degree program. This code is provided under the [Creative Commons License](https://creativecommons.org/licenses/by/4.0/). Revision 1.1 - September 5, 2023
 
 # Scripts 
 1. **Path:** scripts/wildfire_data_analysis.ipynb - This file contains the data acquistion, preparation and analysis of the wildfire data from USGS.
