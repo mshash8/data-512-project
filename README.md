@@ -57,6 +57,10 @@ LICENSE File: Contains the MIT LICENSE for the project's code, ensuring it is fr
 # License
 This project is open-source and follows the MIT License. You are free to use and modify the code according to the terms of the MIT License. 
 
+# Scripts 
+1. **Path:** scripts/wildfire_data_analysis.json - This file contains the data acquistion, preparation and analysis of the wildfire data from USGS.
+2. **Path:** scripts/aqi_data_acquistion.json - This file contains the data acquistion and API call for the AQI data. This creates an output json of AQI for each year which is read back into the notebook above to create visualizations.
+
 # Data Files 
 
 1. **Path:** data/predictions.json - This file contains the predictions of smoke in Lewiston, Idaho for the years 2024-2049.
@@ -66,6 +70,19 @@ year (int) : predicted_smoke_estimate (int)
 2. **Path:** data/aqi.json - This file contains the AQI estimates near Lewiston, Idaho for the years 1986-2023.
 
 year (int) : aqi_estimate (int)
+
+# Helpful Links
+1. [Metadata for Wilfire Polygon Data](https://www.sciencebase.gov/catalog/file/get/61aa537dd34eb622f699df81?f=__disk__d0%2F63%2F53%2Fd063532049be8e1bc83d1d3047b4df1a5cb56f15&transform=1&allowOpen=true)
+
+2. [Documentation for the the US Environmental Protection Agency (EPA) Air Quality Service (AQS) API](https://aqs.epa.gov/aqsweb/documents/data_api.html)
+
+3. [Statsmodels AutoReg Documentation](https://www.statsmodels.org/stable/generated/statsmodels.tsa.ar_model.AutoReg.html)
+
+4. [Wildfire Data Reader Python Module](https://drive.google.com/file/d/1TwCkvdaw0MxJzW7NSDg6XxYQ0dvaS44I/view)
+
+5. [Python Notebook for geodetic distance computation](https://drive.google.com/file/d/1qNI6hji8CvDeBsnLDAhJXvaqf2gcg8UV/view)
+
+6. [Python Notebook to call EPI Air Quality History Data](https://drive.google.com/file/d/17C9xsmR9U3lJeD52UTbAedlHDetwYsxs/view?usp=sharin)
 
 
 # Research Implications
