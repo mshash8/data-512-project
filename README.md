@@ -96,7 +96,7 @@ This project is open-source and follows the MIT License. You are free to use and
 
 5. [Python Notebook for geodetic distance computation](https://drive.google.com/file/d/1qNI6hji8CvDeBsnLDAhJXvaqf2gcg8UV/view)
 
-6. [Python Notebook to call EPI Air Quality History Data](https://drive.google.com/file/d/17C9xsmR9U3lJeD52UTbAedlHDetwYsxs/view?usp=sharin)
+6. [Python Notebook to call EPI Air Quality History Data](https://drive.google.com/file/d/1bxl9qrb_52RocKNGfbZ5znHVqFDMkUzf/view?usp=sharing)
 
 
 # Research Implications
